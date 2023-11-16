@@ -28,3 +28,20 @@
 # MAGIC   current_timestamp()
 # MAGIC FROM
 # MAGIC   raw_song_data
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select count(year) from prepared_song_data where year < 100;
+# MAGIC
+# MAGIC
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select distinct(year),count(year) from prepared_song_data group by year order by year;
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select distinct(year),count(year) from raw_song_data group by year order by year;
