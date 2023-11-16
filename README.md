@@ -2,6 +2,15 @@
 
 The purpose of this project is to work with the Databricks platform, which is designed for massive-scale data engineering and collaborative data science.
 
+Project Requirements:
+* A well-documented Databricks notebook that performs ETL (Extract, Transform, Load) operations, checked into the repository.
+* Usage of Delta Lake for data storage (show you understand the benefits).
+* Usage of Spark SQL for data transformations.
+* Proper error handling and data validation.
+* Visualization of the transformed data.
+* An automated trigger to initiate the pipeline.
+
+
 To do this, I created a data pipeline using the Databricks platform. 
 
 I connected my github repository with my databricks workspace and pushed my three notebooks (ingest, prepare, and analyze songs) to this repository.
