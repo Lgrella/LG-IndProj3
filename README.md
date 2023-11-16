@@ -32,3 +32,5 @@ In conclusion, if this analysis/visualization were to go to management, the two 
 
 I would also argue that this is historical data and we are in a new environment now with social media like TikTok. It is not smart to assume we are following historical trends.
 
+# Youtube Demo: 
+[Demo for Individual Project 3](https://youtu.be/kmbNlLlhOMU)
